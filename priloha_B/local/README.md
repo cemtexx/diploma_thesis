@@ -30,7 +30,7 @@ Vysvětlení parametrů
 - **YOLO_CONFIG_FILE**: Cesta ke konfiguračnímu souboru pro síť YOLOv4.
 - **YOLO_WEIGHTS_FILE**: Cesta k modelu sítě YOLO.
 - **FIRST_MODEL_PATH**: Cesta k prvnímu modelu sítě U-Net.
-- **SECOND_MODEL_PATH **: Cesta ke druhému modelu sítě U-Net.
+- **SECOND_MODEL_PATH**: Cesta ke druhému modelu sítě U-Net.
 - **THIRD_MODEL_PATH**: Cesta ke třetímu modelu sítě U-Net.
 - **TEMPORARY_IMAGE**: Název dočasného souboru pro ladění.
 - **CONFIDENCE_THRESHOLD**: Parametr t_bb metody non-maxima suppression.
