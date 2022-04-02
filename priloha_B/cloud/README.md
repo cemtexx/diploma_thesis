@@ -4,7 +4,7 @@ Tento program byl vytvořen v rámci diplomové práce na Ústavu automatizace a
 Autor: **Štěpán Maršala**
 
 ## Úvod
-Program ScalesCounter počítá sekundární šupiny Ještěrek obecných na jejich ventrálních stranách (břichách) a výsledky zapisuje do textového souboru. Program má dvě verze. Verzi pro lokální spuštění na počítači s operačním systém Windows a cloudovou verzi, která se spouští přes službu Google Colab propojitelnou s Google Diskem.
+Program ScalesCounter počítá sekundární šupiny ještěrek obecných na jejich ventrálních stranách (břichách) a výsledky zapisuje do textového souboru. Program má dvě verze. Verzi pro lokální spuštění na počítači s operačním systém Windows a cloudovou verzi, která se spouští přes službu Google Colab propojitelnou s Google Diskem.
 
 ## Návod pro nastavení a spuštění programu
 ### Na vašem Google Disku
