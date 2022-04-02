@@ -1,0 +1,25 @@
+IMAGE_OUTPUT: True
+DEBUG_MODE: False
+
+IMAGES_INPUT_FOLDER: 'images_input'
+IMAGES_OUTPUT_FOLDER: 'images_output'
+TXT_OUTPUT_FOLDER: 'scales_counter_results'
+
+YOLO_CONFIG_FILE: 'yolov4-custom.cfg'
+
+YOLO_WEIGHTS_FILE: 'yolov4_model_name.weights'
+FIRST_MODEL_PATH: 'unet_model_one.h5'
+SECOND_MODEL_PATH: 'unet_model_two.h5'
+THIRD_MODEL_PATH: 'unet_model_three.h5'
+
+TEMPORARY_IMAGE: 'temp_im.png'
+
+CONFIDENCE_THRESHOLD: 0.18
+ENLARGE_BODY: 1.42
+CUT_SIZE: 512
+
+LOCAL_FILTER: 7
+MINIMUM_DISTANCE: 2
+TM: 0.1
+MAXIMUM_SCALES: 35
+MINIMUM_SCALES: 26
