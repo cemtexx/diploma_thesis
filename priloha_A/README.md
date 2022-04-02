@@ -8,7 +8,7 @@ Sada přiložených skriptů slouží k:
 - úpravě a štítkování datové sady,
 - natrénovaní a evaluaci modelů sítí YOLOv4 a UNET.
 
-Modely konvolučních neuronových sítí slouží k běhu programu ScalesCounter, který počítá sekundární šupiny Ještěrek obecných na jejich ventrálních stranách (břichách) a výsledky zapisuje do textového souboru. Dvě verze tohoto programu jsou součástí další přílohy.
+Modely konvolučních neuronových sítí slouží k běhu programu ScalesCounter, který počítá sekundární šupiny ještěrek obecných na jejich ventrálních stranách (břichách) a výsledky zapisuje do textového souboru. Dvě verze tohoto programu jsou součástí další přílohy.
 
 ## Konfigurace parametrů
 Před spouštěním jednotlivých skriptů je nejprve potřeba nakonfigurovat proměnné v souboru **configure.py**. Soubor **configure.py** je editovatelný v běžných textových editorech jako je například poznámkový blok ve Windows. Výchozí hodnoty jsou vyzkoušené a uživatel by je měl měnit jen pokud program nefunguje správně!
@@ -42,7 +42,7 @@ Před spouštěním jednotlivých skriptů je nejprve potřeba nakonfigurovat pr
 ## Popis funkce jednotlivých skriptů
 Seznam potřebných knihoven pro spouštění skriptů je v souboru **requirements.txt**.
 
-Do adresáře **dataset_raw** je před spouštěním skriptů potřeba umístit fotografie ventrálních stran Ještěrek obecných ve formátech png. jpg, psd nebo CR2. Datová sada těchto fotografií není součástí této ani jiné přílohy.
+Do adresáře **dataset_raw** je před spouštěním skriptů potřeba umístit fotografie ventrálních stran ještěrek obecných ve formátech png. jpg, psd nebo CR2. Datová sada těchto fotografií není součástí této ani jiné přílohy.
 
 Spuštění skriptu **prepare.py** transformuje sadu fotografií ve složce **dataset_raw** na stejné fotografie, které jsou v náhodném pořadí číselně označené a uložené ve formátu png do adresáře zadaného parametrem **IMAGES_PATH**. Zároveň vytvoří soubor pickle pro uložení informací pro další skripty.
 
