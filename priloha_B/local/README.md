@@ -4,13 +4,13 @@ Tento program byl vytvořen v rámci diplomové práce na Ústavu automatizace a
 Autor: **Štěpán Maršala**
 
 ## Úvod
-Program ScalesCounter počítá sekundární šupiny ještěrek obecných na jejich ventrálních stranách (břichách) a výsledky zapisuje do textového souboru. Program má dvě verze. Verzi pro lokální spuštění na počítači s operačním systém Windows a cloudovou verzi, která se spouští přes službu Google Colab propojitelnou s Google Diskem.
+Program ScalesCounter počítá sekundární šupiny ještěrek obecných na jejich ventrálních stranách (břichách) a výsledky zapisuje do textového souboru. Program má dvě verze. Verzi pro lokální spuštění na počítači s operačním systém Windows a cloudovou verzi, která se spouští přes službu Google Colaboratory propojitelnou s Google Diskem.
 
 ## Návod pro spuštění programu
-Program je nejprve potřeba sestavit (nainstalovat), nastavit a až pak se může spustit.
+Program je nejprve potřeba sestavit (nainstalovat), nastavit, a až pak se může spustit.
 
 ### Sestavení programu
-1.   Do adresáře **models/** vložte tří natrénované modely sítě U-Net a jeden natrénovaný model sítě YOLOv4. Jejich názvy musí odpovídat parametrům **FIRST_MODEL_PATH**, **SECOND_MODEL_PATH**, **THIRD_MODEL_PATH** a **YOLO_WEIGHTS_FILE** v souborech **config.yaml** a **setup.py**. Sada skriptů určená k trénování těchto modelů je v jiné příloze. Modely nejsou součástí této ani jiné přílohy.
+1.   Do adresáře **models/** vložte tři natrénované modely sítě U-Net a jeden natrénovaný model sítě YOLOv4. Jejich názvy musí odpovídat parametrům **FIRST_MODEL_PATH**, **SECOND_MODEL_PATH**, **THIRD_MODEL_PATH** a **YOLO_WEIGHTS_FILE** v souborech **config.yaml** a **setup.py**. Sada skriptů určená k trénování těchto modelů je v jiné příloze. Modely nejsou součástí této ani jiné přílohy.
 2. Nainstalujte potřebné Python knihovny, které jsou vypsané v adresáři **requirements.txt**.
 3. Sestavte program zadáním následujícího příkazu do příkazového řádku:
 ```console
@@ -23,12 +23,12 @@ V nové složce s programem najdete soubor **config.yaml**, který je editovatel
 
 Vysvětlení parametrů
 - **IMAGE_OUTPUT**:  Pokud je nastavena hodnota True, program bude do kmenové složky s programem vracet vizualizaci výstupů v podobě výřezů ještěrek s vyznačenými šupinami. Hodnota False tuto funkci vypíná.
-- **DEBUG_MODE**: Pokud je nastavena hodnota True, tak bude docházet k výpisu logů knihovny tensorflow.
+- **DEBUG_MODE**: Pokud je nastavena hodnota True, tak bude docházet k výpisu logů knihovny Tensorflow.
 - **IMAGES_INPUT_FOLDER**: Cesta k adresáři se vstupy.  
 - **IMAGES_OUTPUT_FOLDER**: Cesta k adresáři se vstupy s vizualizovanými výstupy. 
 - **TXT_OUTPUT_FOLDER**: Cesta k adresáři s textovými výstupy.
 - **YOLO_CONFIG_FILE**: Cesta ke konfiguračnímu souboru pro síť YOLOv4.
-- **YOLO_WEIGHTS_FILE**: Cesta k modelu sítě YOLO.
+- **YOLO_WEIGHTS_FILE**: Cesta k modelu sítě YOLOv4.
 - **FIRST_MODEL_PATH**: Cesta k prvnímu modelu sítě U-Net.
 - **SECOND_MODEL_PATH**: Cesta ke druhému modelu sítě U-Net.
 - **THIRD_MODEL_PATH**: Cesta ke třetímu modelu sítě U-Net.
