@@ -35,7 +35,7 @@ Před spouštěním jednotlivých skriptů je nejprve potřeba nakonfigurovat pr
 - **CUT_SIZE**: Rozměry MxN vstupního výřezu do sítě U-Net, kde M = N.
 - **LOCAL_FILTER**: Rozměry čtvercového maxfiltru.
 - **MINIMUM_DISTANCE**: Minimální přípustná vzdálenost mezi detekovanými body množiny Gamma.
-- **TM**: Práh centroid counterpointu t_m.
+- **TM**: Práh Centroid counterpointu t_m.
 - **MAXIMUM_SCALES**: Horní mez počtu šupin ještěrky, pro který program vyhodnotí detekci jako validní.
 - **MINIMUM_SCALES**: Spodní mez počtu šupin ještěrky, pro který program vyhodnotí detekci jako validní.
 
